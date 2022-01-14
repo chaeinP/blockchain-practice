@@ -1,0 +1,20 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Objective : To practive typeScript by making a simple blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
